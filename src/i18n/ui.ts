@@ -48,23 +48,30 @@ export const languages = {
           description: "Aplicación web para la gestión de incidencias de enfermería. Desarrollada con React, Node.js y MySQL. Consulta a otras bases de datos como Informix. Implementación de un sistema de notificaciones. Control de acceso mediante roles y tokens de autentificación.",
           link: "",
           github: "https://github.com/serraraf/regEnf",
-          image: "/projects/noImage.jpg",
+          image: "/projects/regEnf_portada.webp",
           tags: ["react", "nodejs", "mysql"],
         },
         {
           title: "Sistema de gestión de analíticas de laboratorio",
           description: "Aplicación web para la gestión de analíticas de laboratorio. Desarrollada con un enfoque moderno y escalable utilizando React en el Frontend, para ofrecer una experiencia de usuario rápida y fluida, mientras que Node.js gestiona el Backend para asegurar un procesamiento robusto y confiable y PostgreSQL como motro de base de datos.", 
           link: "",
-          image: "/projects/noImage.jpg",
+          image: "/projects/HMSS_portada.webp",
           tags: ["react", "nodejs", "postgresql"],
         },
         {
           title: "Sistema de detección de escoliosis",
           description: "Medical device web para asistir en el diagnóstico y detección de la escoliosis a través de una imágen radiológica. Desarrollada utilizando React para un frontend interactivo y amigable, Node.js en el backend para un procesamiento ágil, y PostgreSQL como base de datos para garantizar la seguridad y gestión eficaz de la información médica. Con un módulo de IA que ayuda a la detección de las vértebras y cálculo de los ángulos de Cobb. Este enfoque integrado permite a los médicos obtener resultados precisos y consistentes, mejorando la eficiencia del diagnóstico y la atención al paciente. ",
           link: "",
-          image: "/projects/noImage.jpg",
+          image: "/projects/scoli_portada.webp",
           tags: ["react", "nodejs", "postgresql"],
-        }
+        },
+        {
+          title: "Landing page para una clínica de estética",
+          description: "Página web para una clínica de estética. Tecnologías empleadas: Astro para un rendimiento optimizado y carga rápida; TailwindCSS para una personalización de estilos ágil y responsiva. Con el objetivo de crear una experiencia web moderna y eficiente que refleje la calidad de los servicios en medicina estética, he tenido muy presente estructurar las secciones y elementos necesarios para transmitir la información de forma clara y atractiva.",
+          link: "https://clinicafloresdeapodaca.netlify.app/",
+          image: "/projects/clinica_portada.webp",
+          tags: ["astro", "tailwindcss"],
+        },
       ]
     },
     en: {
@@ -109,7 +116,7 @@ export const languages = {
           description: "Web application for the management of nursing incidents. Developed with React, Node.js and MySQL. Consultation to other databases such as Informix. Implementation of a notification system. Access control through roles and authentication tokens.",
           link: "https://svgl.vercel.app/",
           github: "",
-          image: "/projects/svgl.webp",
+          image: "/projects/regEnf_portada.webp",
           tags: ["react", "nodejs", "mysql"],
         },
         {
@@ -125,7 +132,14 @@ export const languages = {
           link: "https://adventjs.dev",
           image: "/projects/adventjs.webp",
           tags: ["react", "nodejs", "postgresql"],
-        }
+        },
+        {
+          title: "Landing page for an aesthetic clinic",
+          description: "Website for an aesthetic clinic. Developed with Astro and Tailwindcss.",
+          link: "https://clinicafloresdeapodaca.netlify.app/",
+          image: "/projects/clinica_portada.webp",
+          tags: ["astro", "tailwindcss"],
+        },
       ]
     },
   } as const;

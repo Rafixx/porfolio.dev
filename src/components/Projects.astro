@@ -9,6 +9,7 @@ import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 import NodeJS from "./icons/NodeJS.astro";
 import Postgresql from "./icons/Postgresql.astro";
 import MySQL from "./icons/MySQL.astro";
+import AstroFW from "./icons/AstroFW.astro";
 
 type tLang = (str: any) => any;
 
@@ -28,17 +29,17 @@ type TagsType = {
 const TAGS: TagsType = {
   nextjs: {
     name: "Next.js",
-    class: "bg-[#000] text-white dark:bg-white dark:text-[#000]",
+    class: "bg-gray-600 text-white dark:bg-white dark:text-[#000]",
     icon: NextJS,
   },
   tailwindcss: {
     name: "Tailwind CSS",
-    class: "bg-[#06b6d4] text-white",
+    class: "bg-emerald-100	 text-black",
     icon: Tailwind,
   },
   react: {
     name: "React",
-    class: "bg-[#000] text-white dark:bg-blue-600 ",
+    class: "bg-gray-600 text-white dark:bg-blue-600 ",
     icon: React,
   },
   nodejs: {
@@ -53,8 +54,13 @@ const TAGS: TagsType = {
   },
   mysql: {
     name: "MySQL",
-    class: "bg-yellow-200 text-black dark:bg-gray-100 dark:text-black",
+    class: "bg-sky-100 text-black dark:bg-gray-100 dark:text-black",
     icon: MySQL,
+  },
+  astro: {
+    name: "Astro",
+    class: "bg-indigo-100 text-black dark:bg-white dark:text-[#000]",
+    icon: AstroFW,
   },
 };
 
