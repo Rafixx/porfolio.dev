@@ -67,9 +67,6 @@ const TAGS: TagsType = {
 
 interface ProjectType {
   image1: string;
-  image2: string;
-  image3: string;
-  image4: string;
   imageAlt: string;
   title: string;
   description: string;
@@ -86,9 +83,7 @@ const PROJECTS: ProjectType[] = t("projects");
     PROJECTS.map(
       ({
         image1,
-        image2,
-        image3,
-        image4,
+        imageAlt,
         title,
         description,
         tags,
@@ -104,7 +99,7 @@ const PROJECTS: ProjectType[] = t("projects");
                 data-modal-toggle={modal_id}
                 src={image1}
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
+                alt={imageAlt}
               />
             </div>
           </div>

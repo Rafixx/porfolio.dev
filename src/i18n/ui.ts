@@ -46,8 +46,31 @@ export const languages = {
         {
           title: "Sistema de registro de incidencias de enfermería",
           description: "Solución fullstack para la gestión de incidencias de enfermería. Desarrollada con React, Node.js y MySQL. Consulta a otras bases de datos como Informix. Implementación de un sistema de notificaciones. Control de acceso mediante roles y tokens de autentificación.",
+          modal_desc_text: `
+            <h2 class="text-2xl font-bold mb-4">Aplicación web para la gestión de incidencias de enfermería</h2>
+            <p class="mb-4">
+              Este proyecto consiste en una solución completa, compuesta por un frontend y un backend, desarrollada para gestionar incidencias en un entorno hospitalario, optimizando la trazabilidad y la explotación de datos.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Tecnologías utilizadas:</h3>
+            <ul class="list-disc list-inside mb-4">
+              <li><strong>Frontend</strong>: React, para una experiencia de usuario fluida y componentes dinámicos.</li>
+              <li><strong>Backend</strong>: Node.js, con conexión a múltiples bases de datos y operaciones CRUD sobre MySQL.</li>
+              <li><strong>Bases de datos</strong>: Integración con Informix en modo lectura y una base de datos relacional MySQL.</li>
+              <li><strong>Seguridad</strong>: Implementación de un sistema de control de acceso basado en roles y autenticación mediante tokens JWT.</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mb-2">Características clave:</h3>
+            <ul class="list-disc list-inside">
+              <li><strong>Integración con sistemas hospitalarios (HIS)</strong>: Consulta de datos de pacientes ingresados desde sistemas de gestión hospitalaria a través de SQL.</li>
+              <li><strong>Sistema de notificaciones</strong>: Notificaciones automáticas para mantener informados a los usuarios sobre actualizaciones y cambios en las incidencias.</li>
+              <li><strong>Gestión avanzada de incidencias</strong>: Creación, seguimiento y manejo de incidencias con diferentes estados.</li>
+              <li><strong>Generación de informes</strong>: Herramientas de explotación de datos para obtener reportes detallados que facilitan la toma de decisiones.</li>
+            </ul>
+          `,
           link: "",
           github: "https://github.com/Rafixx/regEnf",
+          imageAlt: "Imagen de portada del proyecto de registro de incidencias de enfermería",
           image1: "/projects/regEnf_portada.webp",
           image2: "/projects/regEnf_screenshot_01.webp",
           image3: "/projects/regEnf_screenshot_02.webp",
@@ -59,6 +82,7 @@ export const languages = {
           title: "Sistema de gestión de analíticas de laboratorio",
           description: "Aplicación web para la gestión de analíticas de laboratorio. Desarrollada con un enfoque moderno y escalable utilizando React en el Frontend, para ofrecer una experiencia de usuario rápida y fluida, mientras que Node.js gestiona el Backend para asegurar un procesamiento robusto y confiable y PostgreSQL como motro de base de datos.", 
           link: "",
+          imageAlt: "Imagen de portada del proyecto de gestión de analíticas de laboratorio",
           image1: "/projects/HMSS_portada.webp",
           image2: "/projects/HMSS_screenshot_01.webp",
           image3: "/projects/HMSS_screenshot_02.webp",
@@ -70,6 +94,7 @@ export const languages = {
           title: "Sistema de detección de escoliosis",
           description: "Medical device web para asistir en el diagnóstico y detección de la escoliosis a través de una imágen radiológica. Desarrollada utilizando React para un frontend interactivo y amigable, Node.js en el backend para un procesamiento ágil, y PostgreSQL como base de datos para garantizar la seguridad y gestión eficaz de la información médica. Con un módulo de IA que ayuda a la detección de las vértebras y cálculo de los ángulos de Cobb. Este enfoque integrado permite a los médicos obtener resultados precisos y consistentes, mejorando la eficiencia del diagnóstico y la atención al paciente. ",
           link: "",
+          imageAlt: "Imagen de portada del proyecto de detección de escoliosis",
           image1: "/projects/scoli_portada.webp",
           image2: "/projects/scoli_screenshot_01.webp",
           image3: "/projects/scoli_screenshot_02.webp",
@@ -81,6 +106,7 @@ export const languages = {
           description: "Página web para una clínica de estética. Tecnologías empleadas: Astro para un rendimiento optimizado y carga rápida; TailwindCSS para una personalización de estilos ágil y responsiva. Con el objetivo de crear una experiencia web moderna y eficiente que refleje la calidad de los servicios en medicina estética, he tenido muy presente estructurar las secciones y elementos necesarios para transmitir la información de forma clara y atractiva.",
           link: "https://clinicafloresdeapodaca.netlify.app/",
           github: "https://github.com/Rafixx/clinicaFloresDeApodaca",
+          imageAlt: "Imagen de portada del proyecto de la clínica de estética",
           image1: "/projects/clinica_portada.webp",
           image2: "/projects/clinica_screenshot_01.webp",
           image3: "/projects/clinica_screenshot_02.webp",
@@ -115,8 +141,8 @@ export const languages = {
           date: 'Currently...',
           company: 'Freelance',
           description: 'I have developed various web projects for companies and individuals, applying my knowledge in technologies such as React, Node.js, SQL, among others. I am responsible for creating custom web applications, from design to implementation and maintenance.',
-          // link: 'https://twitch.tv/midudev',
-          // linkLabel: 'Learn more',
+          link: '#proyectos',
+          linkLabel: 'More...',
         },
         {
           title: 'Functional analyst',
@@ -129,15 +155,43 @@ export const languages = {
         {
           title: "Nursing incidents registration system",
           description: "Web application for the management of nursing incidents. Developed with React, Node.js and MySQL. Consultation to other databases such as Informix. Implementation of a notification system. Access control through roles and authentication tokens.",
-          link: "https://svgl.vercel.app/",
-          github: "",
-          image: "/projects/regEnf_portada.webp",
+          modal_desc_text: `
+            <h2 class="text-2xl font-bold mb-4">Web application for nursing incident management</h2>
+            <p class="mb-4">
+              This project is a complete solution consisting of a frontend and a backend, developed to manage incidents in a hospital environment, optimizing traceability and data analysis.
+            </p>
+            
+            <h3 class="text-xl font-semibold mb-2">Technologies used:</h3>
+            <ul class="list-disc list-inside mb-4">
+              <li><strong>Frontend</strong>: React, for a smooth user experience and dynamic components.</li>
+              <li><strong>Backend</strong>: Node.js, with connections to multiple databases and CRUD operations on MySQL.</li>
+              <li><strong>Databases</strong>: Integration with Informix in read mode and a relational MySQL database.</li>
+              <li><strong>Security</strong>: Implementation of an access control system based on roles and authentication using JWT tokens.</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mb-2">Key features:</h3>
+            <ul class="list-disc list-inside">
+              <li><strong>Integration with hospital systems (HIS)</strong>: Querying patient data from hospital management systems via SQL.</li>
+              <li><strong>Notification system</strong>: Automatic notifications to keep users informed of updates and changes in incidents.</li>
+              <li><strong>Advanced incident management</strong>: Creation, tracking, and management of incidents with different states.</li>
+              <li><strong>Report generation</strong>: Data analysis tools to produce detailed reports that facilitate decision-making.</li>
+            </ul>
+          `,
+          link: "",
+          github: "https://github.com/Rafixx/regEnf",
+          imageAlt: "Cover image of the nursing incidents registration project",
+          image1: "/projects/regEnf_portada.webp",
+          image2: "/projects/regEnf_screenshot_01.webp",
+          image3: "/projects/regEnf_screenshot_02.webp",
+          image4: "/projects/regEnf_screenshot_03.webp",
           tags: ["react", "nodejs", "mysql"],
+          modal_id: "regEnfModal",
         },
         {
           title: "Laboratory analytics management system",
           description: "Web application for the management of laboratory analytics. Developed with a modern and scalable approach using React in the Frontend, to offer a fast and smooth user experience, while Node.js manages the Backend to ensure robust and reliable processing and PostgreSQL as the database engine.",
           link: "https://adventjs.dev",
+          imageAlt: "Cover image of the laboratory analytics management project",
           image: "/projects/adventjs.webp",
           tags: ["react", "nodejs", "postgresql"],
         },
@@ -145,6 +199,7 @@ export const languages = {
           title: "Scoliosis detection system",
           description: "Medical device web to assist in the diagnosis and detection of scoliosis through a radiological image. Developed using React for an interactive and user-friendly frontend, Node.js in the backend for agile processing, and PostgreSQL as a database to ensure the security and efficient management of medical information. With an AI module that helps detect vertebrae and calculate Cobb angles. This integrated approach allows doctors to obtain accurate and consistent results, improving diagnostic efficiency and patient care.",
           link: "https://adventjs.dev",
+          imageAlt: "Cover image of the scoliosis detection project",
           image: "/projects/adventjs.webp",
           tags: ["react", "nodejs", "postgresql"],
         },
@@ -152,6 +207,8 @@ export const languages = {
           title: "Landing page for an aesthetic clinic",
           description: "Website for an aesthetic clinic. Developed with Astro and Tailwindcss.",
           link: "https://clinicafloresdeapodaca.netlify.app/",
+          github: "https://github.com/Rafixx/clinicaFloresDeApodaca",
+          imageAlt: "Cover image of the aesthetic clinic project",
           image: "/projects/clinica_portada.webp",
           tags: ["astro", "tailwindcss"],
         },
