@@ -183,7 +183,7 @@ export const languages = {
 
             <p class="mb-4">
               La página está actualmente en funcionamiento y se puede visitar en el siguiente enlace: 
-              <a href="https://clinicafloresdeapodaca.netlify.app/" class="text-blue-600 underline" target="_blank">Clínica Flores de Apodaca</a>.
+              <a href="https://clinicafloresdeapodaca.netlify.app/" class="text-teal-300 underline" target="_blank">Clínica Flores de Apodaca</a>.
             </p>
           `,
           link: "https://clinicafloresdeapodaca.netlify.app/",
@@ -374,7 +374,7 @@ export const languages = {
 
             <p class="mb-4">
               The page is currently live and can be visited at the following link: 
-              <a href="https://clinicafloresdeapodaca.netlify.app/" class="text-blue-600 underline" target="_blank">Clínica Flores de Apodaca</a>.
+              <a href="https://clinicafloresdeapodaca.netlify.app/" class="text-teal-600 underline" target="_blank">Clínica Flores de Apodaca</a>.
             </p>
           `,
           link: "https://clinicafloresdeapodaca.netlify.app/",
