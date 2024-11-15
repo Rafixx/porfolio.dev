@@ -32,27 +32,28 @@ export const languages = {
           date: 'Actualmente...',
           company: 'Freelance',
           description: 'He desarrollado diversos proyectos web para empresas y particulares, aplicando mis conocimientos en tecnologías como React, Node.js, SQL, entre otras. Me encargo de la creación de aplicaciones web a medida, desde el diseño hasta la implementación y mantenimiento.',
-          // link: 'https://twitch.tv/midudev',
-          // linkLabel: 'Saber más',
+          link: '#proyectos',
+          linkLabel: 'Saber más',
         },
         {
-          title: 'Amalista funcional',
+          title: 'Analista funcional',
           date: 'Enero 2021',
           company: 'Conselleria Sanidad',
-          description: 'Responsable de la implementación de explotación de datos del sistema HIS del HLP de La Pedrera. Desarrollo de aplicaciones web para la gestión incidencias de enfermería.'
+          description: 'Responsable de la implementación de explotación de datos del sistema HIS del HLP de La Pedrera. Desarrollo de aplicaciones web tanto para la gestión incidencias de enfermería como para explotación de datos.'
         }
       ],
       projects: [
         {
           title: "Sistema de registro de incidencias de enfermería",
-          description: "Aplicación web para la gestión de incidencias de enfermería. Desarrollada con React, Node.js y MySQL. Consulta a otras bases de datos como Informix. Implementación de un sistema de notificaciones. Control de acceso mediante roles y tokens de autentificación.",
+          description: "Solución fullstack para la gestión de incidencias de enfermería. Desarrollada con React, Node.js y MySQL. Consulta a otras bases de datos como Informix. Implementación de un sistema de notificaciones. Control de acceso mediante roles y tokens de autentificación.",
           link: "",
-          github: "https://github.com/serraraf/regEnf",
+          github: "https://github.com/Rafixx/regEnf",
           image1: "/projects/regEnf_portada.webp",
           image2: "/projects/regEnf_screenshot_01.webp",
           image3: "/projects/regEnf_screenshot_02.webp",
           image4: "/projects/regEnf_screenshot_03.webp",
           tags: ["react", "nodejs", "mysql"],
+          modal_id: "regEnfModal",
         },
         {
           title: "Sistema de gestión de analíticas de laboratorio",
@@ -63,6 +64,7 @@ export const languages = {
           image3: "/projects/HMSS_screenshot_02.webp",
           image4: "/projects/HMSS_screenshot_03.webp",
           tags: ["react", "nodejs", "postgresql"],
+          modal_id: "HMSSModal",
         },
         {
           title: "Sistema de detección de escoliosis",
@@ -72,6 +74,7 @@ export const languages = {
           image2: "/projects/scoli_screenshot_01.webp",
           image3: "/projects/scoli_screenshot_02.webp",
           tags: ["react", "nodejs", "postgresql"],
+          modal_id: "scoliModal",
         },
         {
           title: "Landing page para una clínica de estética",
@@ -82,6 +85,7 @@ export const languages = {
           image2: "/projects/clinica_screenshot_01.webp",
           image3: "/projects/clinica_screenshot_02.webp",
           tags: ["astro", "tailwindcss"],
+          modal_id: "clinicaModal",
         },
       ]
     },
