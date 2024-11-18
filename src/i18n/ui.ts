@@ -269,7 +269,7 @@ export const languages = {
           image3: "/projects/regEnf_screenshot_02.webp",
           image4: "/projects/regEnf_screenshot_03.webp",
           tags: ["react", "nodejs", "mysql"],
-          modal_id: "regEnfModal_en",
+          modal_id: "regEnfModal",
         },
         {
           title: "Laboratory analytics management system",
@@ -308,7 +308,7 @@ export const languages = {
           image3: "/projects/HMSS_screenshot_02.webp",
           image4: "/projects/HMSS_screenshot_03.webp",
           tags: ["react", "nodejs", "postgresql"],
-          modal_id: "HMSSModal_en",
+          modal_id: "HMSSModal",
         },
         {
           title: "Scoliosis detection system",
@@ -345,7 +345,7 @@ export const languages = {
           image2: "/projects/scoli_screenshot_01.webp",
           image3: "/projects/scoli_screenshot_02.webp",
           tags: ["react", "nodejs", "postgresql"],
-          modal_id: "scoliModal_en",
+          modal_id: "scoliModal",
         },
         {
           title: "Landing page for an aesthetic clinic",
@@ -386,7 +386,7 @@ export const languages = {
           image2: "/projects/clinica_screenshot_01.webp",
           image3: "/projects/clinica_screenshot_02.webp",
           tags: ["astro", "tailwindcss"],
-          modal_id: "clinicaModal_en",
+          modal_id: "clinicaModal",
         },
       ]
     },
