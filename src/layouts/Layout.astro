@@ -25,8 +25,11 @@ const { currentLocale } = Astro;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <ViewTransitions />
-    <script src="/node_modules/flowbite/dist/flowbite.min.js" is:inline
-    ></script>
+    <!-- <script src="/node_modules/flowbite/dist/flowbite.min.js" is:inline    
+    ></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.7/flowbite.min.js"
+      defer></script>
   </head>
 
   <body class="relative text-black dark:text-white">
