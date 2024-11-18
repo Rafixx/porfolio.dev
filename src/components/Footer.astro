@@ -4,6 +4,7 @@ import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const currentYear = new Date().getFullYear();
+const { currentLocale } = Astro;
 ---
 
 <footer
@@ -20,8 +21,9 @@ const currentYear = new Date().getFullYear();
       class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"
     >
       <li>
-        <a href="/#sobre-mi" class="hover:underline me-4 md:me-6"
-          >{t("nav.about")}</a
+        <a
+          href={currentLocale === "en" ? "/en/#home" : "/#home"}
+          class="hover:underline me-4 md:me-6">{t("nav.goBackHome")}</a
         >
       </li>
       <li>
